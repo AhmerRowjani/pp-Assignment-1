@@ -83,7 +83,7 @@ public class ReturnBookUI {
 	}
 	
 	public void setState(UIState state) {  //changed 'uI_sTaTe' to 'UIState' and sEt_sTaTe to setState
-		this.state = state;  //changed 'StATe' to state
+		this.state = state;  //changed 'StATe' to state'
 	}
 
 	
