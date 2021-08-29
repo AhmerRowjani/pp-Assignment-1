@@ -15,7 +15,7 @@ public class Loan implements Serializable {
 	private LoanState state;  //changed 'lOaN_sTaTe' to 'LoanState' and 'StAtE' to 'state'
 
 	
-	public Loan(int loanId, Book bOoK, Member mEmBeR, Date dueDate) {  ////changed 'BoOk' to 'book' and changed 'MeMbEr' to 'member' and DuE_dAtE to dueDate
+	public Loan(int loanId, Book bOoK, Member mEmBeR, Date dueDate) {  ////changed 'BoOk' to 'book' and changed 'MeMbEr' to 'member' and DuE_dAtE to 'dueDate'
 		this.LoAn_Id = loanId; //changed 'LoAn_Id' to 'loanId'
 		this.BoOk = book;  //changed 'BoOk' to 'book'
 		this.MeMbEr = member;  //changed 'MeMbEr' to 'member'
