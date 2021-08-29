@@ -13,7 +13,7 @@ public class ReturnBookUI {
 
 	
 	public ReturnBookUI(ReturnBookControl control) {   //changed 'rETURN_bOOK_cONTROL' to ReturnBookControl' and 'CoNtRoL' to 'control'
-		this.control = Control;  //changed 'CoNtRoL' to 'control' and cOnTrOL to Control
+		this.control = Control;  //changed 'CoNtRoL' to 'control' and cOnTrOL' to Control
 		input = new Scanner(System.in);  //changed iNpUt to input
 		state = UIState.INITIALISED;  //changed 'uI_sTaTe' to 'UIState' and 'StATe' to state
 		Control.setUI(this);  //changed 'cOnTrOL.sEt_uI'to 'Control.setUI'
